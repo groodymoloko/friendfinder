@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FriendSurvey</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style3.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container" id="surveyPage">
+
+        <h2 class="text-center">Let's find your next friend</h2>
+        <hr>
+
+        <h4><strong>Your name (required)</strong></h4>
+        <input type="text" id="name" class="form-control" required>
+
+        <h4><strong>Link to your photo (required)</strong></h4>
+        <input type="text" id="photo" class="form-control" required>
+
+        <hr>
+
+        <div class="rb-box">
+
+            <h5 class="text-center m-3">1 (Strongly Disagree) -----> 5 (Strongly Agree)</h5>
+
+                <!-- Radio Button Module -->
+                <p>1. You thrive off danger and excitement.</p>
+                <div id="rb-1" class="rb">
+                  <div class="rb-tab rb-tab-active" data-value="1">
+                    <div class="rb-spot">
+                      <span class="rb-txt">1</span>
+                    </div>
+                  </div><div class="rb-tab" data-value="2">
+                    <div class="rb-spot">
+                      <span class="rb-txt">2</span>
+                    </div>
+                  </div><div class="rb-tab" data-value="3">
+                    <div class="rb-spot">
+                      <span class="rb-txt">3</span>
+                    </div>
+                  </div><div class="rb-tab" data-value="4">
+                    <div class="rb-spot">
+                      <span class="rb-txt">4</span>
+                    </div>
+                  </div><div class="rb-tab" data-value="5">
+                    <div class="rb-spot">
+                      <span class="rb-txt">5</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <!-- Radio Button Module -->
+                <p>2. You enjoy playing video games in your parents' basement.</p>
+                <div id="rb-2" class="rb">
+                  <div class="rb-tab" data-value="1">
+                    <div class="rb-spot">
+                      <span class="rb-txt">1</span>
+                    </div>
+                  </div><div class="rb-tab rb-tab-active" data-value="2">
+                    <div class="rb-spot">
+                      <span class="rb-txt">2</span>
+                    </div>
+                  </div><div class="rb-tab" data-value="3">
+                    <div class="rb-spot">
+                      <span class="rb-txt">3</span>
+                    </div>
+                  </div><div class="rb-tab" data-value="4">
+                    <div class="rb-spot">
+                      <span class="rb-txt">4</span>
+                    </div>
+                  </div><div class="rb-tab" data-value="5">
+                    <div class="rb-spot">
+                      <span class="rb-txt">5</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <!-- Radio Button Module -->
+                <p>3. You often think to yourself "Man, I wish I had some cheese whiz right now".</p>
+                <div id="rb-3" class="rb">
+                  <div class="rb-tab" data-value="1">
+                    <div class="rb-spot">
+                      <span class="rb-txt">1</span>
+                    </div>
+                  </div><div class="rb-tab" data-value="2">
+                    <div class="rb-spot">
+                      <span class="rb-txt">2</span>
+                    </div>
+                  </div><div class="rb-tab rb-tab-active" data-value="3">
+                    <div class="rb-spot">
+                      <span class="rb-txt">3</span>
+                    </div>
+                  </div><div class="rb-tab" data-value="4">
+                    <div class="rb-spot">
+                      <span class="rb-txt">4</span>
+                    </div>
+                  </div><div class="rb-tab" data-value="5">
+                    <div class="rb-spot">
+                      <span class="rb-txt">5</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <!-- Radio Button Module -->
+                <p>4. You're more often a cool cucumber rather than a hot mess.</p>
+                <div id="rb-4" class="rb">
+                  <div class="rb-tab" data-value="1">
+                    <div class="rb-spot">
+                      <span class="rb-txt">1</span>
+                    </div>
+                  </div><div class="rb-tab" data-value="2">
+                    <div class="rb-spot">
+                      <span class="rb-txt">2</span>
+                    </div>
+                  </div><div class="rb-tab" data-value="3">
+                    <div class="rb-spot">
+                      <span class="rb-txt">3</span>
+                    </div>
+                  </div><div class="rb-tab rb-tab-active" data-value="4">
+                    <div class="rb-spot">
+                      <span class="rb-txt">4</span>
+                    </div>
+                  </div><div class="rb-tab" data-value="5">
+                    <div class="rb-spot">
+                      <span class="rb-txt">5</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <!-- Radio Button Module -->
+                <p>5. People who mount the toilet paper roll backwards deserve corporal punishment.</p>
+                <div id="rb-5" class="rb">
+                  <div class="rb-tab" data-value="1">
+                    <div class="rb-spot">
+                      <span class="rb-txt">1</span>
+                    </div>
+                  </div><div class="rb-tab" data-value="2">
+                    <div class="rb-spot">
+                      <span class="rb-txt">2</span>
+                    </div>
+                  </div><div class="rb-tab" data-value="3">
+                    <div class="rb-spot">
+                      <span class="rb-txt">3</span>
+                    </div>
+                  </div><div class="rb-tab" data-value="4">
+                    <div class="rb-spot">
+                      <span class="rb-txt">4</span>
+                    </div>
+                  </div><div class="rb-tab rb-tab-active" data-value="5">
+                    <div class="rb-spot">
+                      <span class="rb-txt">5</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Radio Button Module -->
+                <p>6. Three's Company was the pinnacle of intellectual television.</p>
+                <div id="rb-6" class="rb">
+                  <div class="rb-tab" data-value="1">
+                    <div class="rb-spot">
+                      <span class="rb-txt">1</span>
+                    </div>
+                  </div><div class="rb-tab" data-value="2">
+                    <div class="rb-spot">
+                      <span class="rb-txt">2</span>
+                    </div>
+                  </div><div class="rb-tab" data-value="3">
+                    <div class="rb-spot">
+                      <span class="rb-txt">3</span>
+                    </div>
+                  </div><div class="rb-tab rb-tab-active" data-value="4">
+                    <div class="rb-spot">
+                      <span class="rb-txt">4</span>
+                    </div>
+                  </div><div class="rb-tab" data-value="5">
+                    <div class="rb-spot">
+                      <span class="rb-txt">5</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Radio Button Module -->
+                <p>7. Tattoos are never a bad idea (except for unicorns).</p>
+                <div id="rb-7" class="rb">
+                  <div class="rb-tab" data-value="1">
+                    <div class="rb-spot">
+                      <span class="rb-txt">1</span>
+                    </div>
+                  </div><div class="rb-tab" data-value="2">
+                    <div class="rb-spot">
+                      <span class="rb-txt">2</span>
+                    </div>
+                  </div><div class="rb-tab rb-tab-active" data-value="3">
+                    <div class="rb-spot">
+                      <span class="rb-txt">3</span>
+                    </div>
+                  </div><div class="rb-tab" data-value="4">
+                    <div class="rb-spot">
+                      <span class="rb-txt">4</span>
+                    </div>
+                  </div><div class="rb-tab" data-value="5">
+                    <div class="rb-spot">
+                      <span class="rb-txt">5</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Radio Button Module -->
+                <p>8. Switching back to cursive and stick shift cars would be the best way to get back at Millennials.</p>
+                <div id="rb-8" class="rb">
+                  <div class="rb-tab" data-value="4">
+                    <div class="rb-spot">
+                      <span class="rb-txt">4</span>
+                    </div>
+                  </div><div class="rb-tab rb-tab-active" data-value="2">
+                    <div class="rb-spot">
+                      <span class="rb-txt">2</span>
+                    </div>
+                  </div><div class="rb-tab" data-value="5">
+                    <div class="rb-spot">
+                      <span class="rb-txt">5</span>
+                    </div>
+                  </div><div class="rb-tab" data-value="1">
+                    <div class="rb-spot">
+                      <span class="rb-txt">1</span>
+                    </div>
+                  </div><div class="rb-tab" data-value="3">
+                    <div class="rb-spot">
+                      <span class="rb-txt">3</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Radio Button Module -->
+                <p>9. Aliens probably lock their doors when they cruise past Earth.</p>
+                <div id="rb-9" class="rb">
+                  <div class="rb-tab rb-tab-active" data-value="1">
+                    <div class="rb-spot">
+                      <span class="rb-txt">1</span>
+                    </div>
+                  </div><div class="rb-tab" data-value="2">
+                    <div class="rb-spot">
+                      <span class="rb-txt">2</span>
+                    </div>
+                  </div><div class="rb-tab" data-value="3">
+                    <div class="rb-spot">
+                      <span class="rb-txt">3</span>
+                    </div>
+                  </div><div class="rb-tab" data-value="4">
+                    <div class="rb-spot">
+                      <span class="rb-txt">4</span>
+                    </div>
+                  </div><div class="rb-tab" data-value="5">
+                    <div class="rb-spot">
+                      <span class="rb-txt">5</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Radio Button Module -->
+                <p>10. The Matrix was right, humans are a virus. But we still deserve a date once in a while.</p>
+                <div id="rb-10" class="rb">
+                  <div class="rb-tab" data-value="1">
+                    <div class="rb-spot">
+                      <span class="rb-txt">1</span>
+                    </div>
+                  </div><div class="rb-tab rb-tab-active" data-value="2">
+                    <div class="rb-spot">
+                      <span class="rb-txt">2</span>
+                    </div>
+                  </div><div class="rb-tab" data-value="3">
+                    <div class="rb-spot">
+                      <span class="rb-txt">3</span>
+                    </div>
+                  </div><div class="rb-tab" data-value="4">
+                    <div class="rb-spot">
+                      <span class="rb-txt">4</span>
+                    </div>
+                  </div><div class="rb-tab" data-value="5">
+                    <div class="rb-spot">
+                      <span class="rb-txt">5</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <!-- Button -->
+                <div class="button-box">
+                  <button type="submit" class="button submit">Submit!</button>
+                </div>
+              
+              </div>
+
+        <hr>
+
+
+        <div id="friendModal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title">Here is your new friend!</h3>
+              </div>
+              <div class="modal-body">
+                <h2 id="friendName"></h2>
+                <img id="friendPhoto" src="#">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" id="modalClose" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <footer class="footer">
+            <div class="container text-center">
+                <a href="/api/friends">Friends List</a> | <a href="#">GitHub Repo</a>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
+
+<!-- jQuery code to download data loaded from the server and display it-->
+<script type="text/javascript">
+
+  //Changes active radio button to chosen button
+  $(".rb-tab").click(function(){
+    //Spot switcher:
+    $(this).parent().find(".rb-tab").removeClass("rb-tab-active");
+    $(this).addClass("rb-tab-active");
+  });
+
+  //Save data to the main data array
+  $(".submit").on("click", function(event) {
+    event.preventDefault();
+
+    let newSurveyNumbers = [];
+    let newSurvey = {};
+
+    for (i=1; i<=$(".rb").length; i++) {
+      let rb = "rb" + i;
+      let rbValue = parseInt($("#rb-"+i).find(".rb-tab-active").attr("data-value"));
+      newSurveyNumbers.push(rbValue);
+    };
+
+    function validateForm() {
+        let isValid = true;
+        $(".form-control").each(function() {
+          if ($(this).val() === "") {
+            isValid = false;
+          }
+        });
+
+        $(".chosen-select").each(function() {
+
+          if ($(this).val() === "") {
+            isValid = false;
+          }
+        });
+        console.log(isValid);
+        return isValid;
+    };
+
+    // validate data (do not allow blank input)
+    if (validateForm()) {    
+        newSurvey = {
+        name: $("#name").val().trim(),
+        photo: $("#photo").val().trim(),
+        scores: newSurveyNumbers
+      };
+
+      $.post("/api/friends", newSurvey, function(data) { 
+          console.log(data.name);
+          console.log(data.photo);
+          $("#friendName").text(data.name);
+				  $("#friendPhoto").attr("src", data.photo);
+          $("#friendModal").modal("toggle");
+          $("#modalClose").on("click", function(event) {
+            location.assign("/home.html");
+          });
+
+      });
+
+    } else {
+      alert("Please fill out all fields!");
+    };
+
+  });
+
+</script>
+
